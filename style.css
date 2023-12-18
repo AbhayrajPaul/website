@@ -1,0 +1,119 @@
+/*Universal Settings*/
+* {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+.light-mode {
+  background-color: white;
+  color: #1f1f1f;
+}
+
+.dark-mode {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+/*Body - Header, Main and Footer*/
+
+/*Header*/
+header {
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  display: block;
+  box-shadow: 0 2px 3px 2px rgba(255, 255, 255, 0.400);
+  position: fixed;
+}
+
+#header_table {
+  border-collapse: separate;
+  border-spacing: 30px;
+  max-height: 200px;
+  width: 100%;
+}
+
+#nav_center {
+  padding-left: 375px;
+}
+
+#nav_right {
+  padding-left: 425px;
+}
+
+/*Main*/
+
+/* Adjust size as per space here  */
+main {
+  padding: 125px 0px 1px 3px;
+  max-width: 1080px;
+  margin: 8px;
+}
+
+/*Footer*/
+footer {
+  height: 125px;
+  bottom: 0px;
+  margin: 0px;
+}
+
+/* Button Styles */
+.btn {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  margin: 6px 12px;
+  padding: 12px 12px;
+  overflow-y: hidden;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  border-radius: 5px;
+  height: 15px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1d4242;
+  text-decoration: underline;
+  text-decoration-color: black;
+  cursor: pointer;
+}
+
+/* Link Styles */
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  transition: color 0.5s ease-in-out;
+}
+
+/*List Styles*/
+.li_no_bullets {
+  list-style-type: none;
+}
+
+/*Other Styles*/
+
+.sun_yellow {
+  color: #d4d416;
+  font-size: 30px;
+}
+
+#logo {
+  width: 200px;
+  height: auto;
+}
