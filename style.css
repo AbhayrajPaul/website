@@ -46,6 +46,10 @@ header {
   padding-left: 425px;
 }
 
+nav div li {
+  display: inline;
+}
+
 /*Main*/
 
 /* Adjust size as per space here  */
@@ -60,6 +64,15 @@ footer {
   height: 125px;
   bottom: 0px;
   margin: 0px;
+  text-align: center;
+}
+
+/* Image Styles */
+img {
+  margin: 40px auto;
+  width: auto;
+  max-width: 90%;
+  box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.2);
 }
 
 /* Button Styles */
